@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Eduford University</title>
+        <meta name="description" content="World's biggest university">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="eduford_img/favicon.ico" type="image/ico">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="eduford_img/logo.png" alt="Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOGS</a></li>
+                        <li><a href="">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <!-- About us content -->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>World's Supreme University</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur recusandae officia ipsum in ipsam veritatis eligendi molestias omnis sint nobis accusamus, perferendis voluptatibus, est necessitatibus quis, dolore nam consectetur! Odio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam, quasi velit quis non labore nisi facere? Quo aliquam dolores pariatur, iste eligendi similique corrupti! Veritatis quis deleniti voluptatibus repudiandae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deleniti aliquid iste quibusdam, dolore atque inventore nemo corrupti error aspernatur. Atque facilis eius nihil molestias veniam aliquam quidem, in delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, autem ipsa. Veniam maiores quasi praesentium deleniti cupiditate quas nisi officiis dicta error voluptatem deserunt, aut similique incidunt at perspiciatis perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, mollitia. Eveniet suscipit soluta ad. Error repellat amet dolor minus magni iure consequatur sint delectus, dignissimos doloribus deleniti impedit id qui.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE MORE</a>
+                </div>
+                <div class="about-col">
+                    <img src="eduford_img/about.jpg" alt="About">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <section class="footer">
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter-square"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <p>Powered by <i class="fa-solid fa-file-code fa-xl"></i> File Code</p>
+        </section>
+
+        <!-- Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById('navLinks');
+            
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
